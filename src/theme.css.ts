@@ -46,9 +46,9 @@ const fontWeights = {
 }
 
 const fonts = {
-  text: '"Pretendard Variable", "DM Sans", sans-serif',
-  heading: '"Pretendard Variable", "DM Sans", sans-serif',
-  mono: "Pretendard Variable, DM Mono, Menlo, monospace",
+  text: '"Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif',
+  heading: '"Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif',
+  mono: '"Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif',
 }
 
 const lineHeights = {
@@ -59,9 +59,9 @@ const lineHeights = {
 }
 
 const letterSpacings = {
-  normal: "0",
-  tight: "-0.02em",
-  wide: "0.08em",
+  normal: "-0.015em",
+  tight: "-0.025em",
+  wide: "0.1em",
 }
 
 const sizes = {

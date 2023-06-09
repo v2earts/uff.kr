@@ -1,14 +1,8 @@
 import { style } from "@vanilla-extract/css"
 import { theme } from "../theme.css"
 
-export const heading = style({
-  fontFamily: theme.fonts.mono,
-  fontStyle: "normal",
-  letterSpacing: "-0.02em",
-})
-
 export const link = style({
-  fontSize: theme.fontSizes[4],
+  fontSize: theme.fontSizes[3],
   fontWeight: theme.fontWeights.bold,
   textAlign: "center",
   color: "inherit",
@@ -25,7 +19,7 @@ export const linkChevron = style({
 export const text = style({
   fontSize: theme.fontSizes[4],
   textAlign: "center",
-  marginBottom: 0,
+  marginBottom: -30,
 })
 
 export const image = style({

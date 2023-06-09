@@ -57,9 +57,9 @@ export const mobileNavOverlay = style({
 export const mobileNavLink = style({
   display: "block",
   color: theme.colors.background,
-  fontSize: theme.fontSizes[4],
-  fontWeight: theme.fontWeights.medium,
-  paddingTop: theme.space[2],
+  fontSize: theme.fontSizes[3],
+  fontWeight: theme.fontWeights.bold,
+  paddingTop: theme.space[1],
   paddingBottom: theme.space[1],
   paddingLeft: theme.space[4],
   paddingRight: theme.space[4],
