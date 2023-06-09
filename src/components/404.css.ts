@@ -27,3 +27,11 @@ export const text = style({
   textAlign: "center",
   marginBottom: 0,
 })
+
+export const image = style({
+  width: "100%",
+  height: "auto",
+  maxWidth: "400px",
+  margin: "0 auto",
+  display: "block",
+})
