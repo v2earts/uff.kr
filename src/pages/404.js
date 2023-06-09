@@ -14,7 +14,6 @@ export default function NotFound() {
         <img src={notFoundImage} alt="404 Not Found" className={styles.image} />
           <Flex variant="column">
             <Heading variant="mega" className={styles.heading}>
-              404
             </Heading>
             <Heading as="h1"></Heading>
             <Flex variant="column" gap={0}>
