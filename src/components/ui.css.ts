@@ -475,7 +475,7 @@ const button = style({
   borderRadius: theme.radii.button,
 })
 
-export type ButtonVariants = "primary" | "reversed" | "link" | "linkReversed"
+export type ButtonVariants = "primary" | "reversed" | "link" | "linkReversed" | "btnGrad";
 
 export const buttons: Record<ButtonVariants, string> = styleVariants({
   primary: [
@@ -534,7 +534,28 @@ export const buttons: Record<ButtonVariants, string> = styleVariants({
       },
     },
   ],
-})
+  btnGrad: [
+    button,
+    {
+      backgroundImage: 'linear-gradient(to right, #ff4b1f 0%, #ff9068 51%, #ff4b1f 100%)',
+      margin: '10px',
+      padding: '15px 45px',
+      textAlign: 'center',
+      textTransform: 'uppercase',
+      transition: '0.5s',
+      backgroundSize: '200% auto',
+      color: 'white',
+      boxShadow: '0 0 20px #eee',
+      borderRadius: '10px',
+      display: 'block',
+      ':hover': {
+        backgroundPosition: 'right center',
+        color: '#fff',
+        textDecoration: 'none',
+      },
+    },
+  ],
+});
 
 export type Backgrounds = "primary" | "muted"
 

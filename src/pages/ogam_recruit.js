@@ -1,7 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import { Container, Box, Heading } from "../components/ui"
+import { Container, Box, Heading, Button } from "../components/ui"
 import SEOHead from "../components/head"
 
 export default function OgamRecruitPage({ data }) {
@@ -13,6 +13,14 @@ export default function OgamRecruitPage({ data }) {
       <Box paddingY={5}>
         <Container width="narrow">
           <Heading as="h1">{ogamRecruitPage.title}</Heading>
+          <div style={{ display: 'flex', justifyContent: 'left' }}>
+            <Button variant="btnGrad">
+              <a href="https://docs.google.com/uc?export=download&id=1PE7a9sJRgcHYs9eucJ55E1uLAyeNM5Dp&confirm=t" style={{ textDecoration: 'none', color: 'inherit' }}>모집 안내문</a>
+            </Button>
+            <Button variant="btnGrad">
+              <a href="https://docs.google.com/uc?export=download&id=1VUCmoS9m5oDrDv5oAxsZ8QtZEPvOIhU&confirm=t" style={{ textDecoration: 'none', color: 'inherit' }}>지원서</a>
+            </Button>
+          </div>
           <div
             dangerouslySetInnerHTML={{
               __html: ogamRecruitPage.html,
@@ -21,7 +29,7 @@ export default function OgamRecruitPage({ data }) {
         </Container>
       </Box>
     </Layout>
-  )
+  );
 }
 
 export const query = graphql`
