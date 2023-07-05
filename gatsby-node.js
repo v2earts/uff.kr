@@ -613,7 +613,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
 }
 
 exports.createPages = ({ actions }) => {
-  const { createSlice, createRedirect } = actions;
+  const { createSlice } = actions;
 
   createSlice({
     id: "header",
@@ -623,13 +623,6 @@ exports.createPages = ({ actions }) => {
   createSlice({
     id: "footer",
     component: require.resolve("./src/components/footer.js"),
-  });
-
-  createRedirect({
-    fromPath: '/naver35fb2175ae8cf9a08e27c2de52b2f165.html', // 리다이렉션할 경로
-    toPath: 'https://uff.kr/naver35fb2175ae8cf9a08e27c2de52b2f165.html', // 이동할 외부 링크
-    isPermanent: true, // 영구적인 리다이렉션인지 여부
-    redirectInBrowser: true, // 브라우저에서 리다이렉션을 처리할지 여부
   });
 };
 
