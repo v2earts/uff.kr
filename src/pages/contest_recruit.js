@@ -22,7 +22,10 @@ export default function contestRecruitPage({ data }) {
               모집 안내문
             </Button>
             <Button variant="btnGrad" onClick={() => handleDownload("https://docs.google.com/uc?export=download&id=1goVJ-gdYQ8n1UI0e-m1hFMiMzZ92MhBi&confirm=t")}>
-              지원서
+              츌품신청서 (개인)
+            </Button>
+            <Button variant="btnGrad" onClick={() => handleDownload("https://docs.google.com/uc?export=download&id=1zpzK3S5yfjNLCHjJIGvH_FjWra06Wb8B&confirm=t")}>
+              출품신청서 (단체)
             </Button>
           </div>
           <div
