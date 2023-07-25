@@ -24,7 +24,7 @@ export default function contestRecruitPage({ data }) {
             <Button variant="btnGrad" onClick={() => handleDownload("https://docs.google.com/uc?export=download&id=1goVJ-gdYQ8n1UI0e-m1hFMiMzZ92MhBi&confirm=t")}>
               츌품신청서 (개인)
             </Button>
-            <Button variant="btnGrad" onClick={() => handleDownload("https://docs.google.com/uc?export=download&id=1zpzK3S5yfjNLCHjJIGvH_FjWra06Wb8B&confirm=t")}>
+            <Button variant="btnGrad" onClick={() => handleDownload("https://docs.google.com/uc?export=download&id=172-ub7kgJItnUZPh8e7p9fPhJ4fpcWex&confirm=t")}>
               출품신청서 (단체)
             </Button>
           </div>
