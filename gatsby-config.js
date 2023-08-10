@@ -11,6 +11,9 @@ module.exports = {
     author: `Gatsby`,
     description: "A Gatsby Starter for building homepages with Contentful",
   },
+  flags: {
+    DEV_SSR: true,
+  },
   plugins: [
     {
       resolve: "gatsby-source-contentful",
