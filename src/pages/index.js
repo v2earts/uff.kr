@@ -8,8 +8,6 @@ import SEOHead from "../components/head"
 export default function Homepage(props) {
   const { homepage } = props.data
 
-  const blocks = homepage.blocks || []
-
   return (
     <Layout>
       {homepage.blocks.map((block) => {

@@ -19,7 +19,7 @@ export default function contestRecruitPage({ data }) {
           <Heading as="h1">제26회 도시영화제 일반공모 출품 안내</Heading>
           <div style={{ display: 'flex', justifyContent: 'left' }}>
             <Button variant="btnGrad" onClick={() => handleDownload("https://docs.google.com/uc?export=download&id=1X4vT1mgi71mBDk_H6zUjesNtEBig2gLz&confirm=t")}>
-              출품안내문
+              모집 안내문
             </Button>
             <Button variant="btnGrad" onClick={() => handleDownload("https://docs.google.com/uc?export=download&id=1goVJ-gdYQ8n1UI0e-m1hFMiMzZ92MhBi&confirm=t")}>
               출품신청서 (개인)
